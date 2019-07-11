@@ -9,7 +9,6 @@ import torch.nn.functional as F
 
 from .vq import VQ, vq_loss
 
-
 class Encoder(nn.Module):
     """
     An abstract VQ-VAE encoder, which takes input Tensors,
